@@ -1,0 +1,22 @@
+<!--
+ - Created by Turbo_000 on 8/19/2018.
+ -->
+
+<aura:component implements="flexipage:availableForAllPageTypes,force:hasRecordId" access="global">
+    <aura:attribute name="recordId" type="Id"/>
+    <aura:attribute name="contact" type="Contact"/>
+    <aura:attribute name="accountFields" type="String[]" default="Name,Type,Rating,NumberOfEmployees" />
+    <force:recordData aura:id="contactRecord"
+                      recordId="{!v.recordId}"
+                      targetFields="{!v.contact}"
+                      layoutType="FULL"/>
+    <lightning:card>
+        <lightning:recordForm
+                recordId="{!v.contact.Account.Id}"
+                objectApiName="Account"
+                fields="{!v.accountFields}"
+                columns="2"
+                mode="view">
+        </lightning:recordForm>
+    </lightning:card>
+</aura:component>

@@ -1,0 +1,21 @@
+<aura:component implements="flexipage:availableForAllPageTypes,force:hasRecordId,force:appHostable" access="global">
+    <lightning:recordViewForm recordId="{!v.recordId}" objectApiName="Account">
+        <lightning:layout multipleRows="true">
+            <lightning:layoutItem size="6" class="slds-border_bottom">
+                <lightning:outputField fieldName="Name" />
+            </lightning:layoutItem>
+            <lightning:layoutItem size="6" class="slds-border_bottom">
+                <lightning:outputField fieldName="Type"/>
+            </lightning:layoutItem>
+            <lightning:layoutItem size="6" class="slds-border_bottom">
+                <lightning:outputField fieldName="Rating" />
+            </lightning:layoutItem>
+            <lightning:layoutItem size="6" class="slds-border_bottom">
+                <lightning:outputField fieldName="NumberOfEmployees"/>
+            </lightning:layoutItem>
+            <lightning:layoutItem size="6" class="slds-border_bottom slds-p-top_large">
+                Signature:
+            </lightning:layoutItem>
+        </lightning:layout>
+    </lightning:recordViewForm>
+</aura:component>
