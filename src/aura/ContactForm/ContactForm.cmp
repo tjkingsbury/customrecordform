@@ -1,5 +1,5 @@
 <!--
- - Created by Taylor Kingsbury on 8/19/2018.
+ - Created by tkingsbury on 8/19/2018.
  -->
 
 <aura:component implements="flexipage:availableForAllPageTypes,force:hasRecordId" access="global">
