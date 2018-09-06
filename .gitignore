@@ -51,3 +51,8 @@ mm.log
 TestCache.xml
 
 TestsResultsCache.xml
+=======
+.project
+.settings
+salesforce.schema
+Referenced Packages
