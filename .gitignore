@@ -55,4 +55,8 @@ TestsResultsCache.xml
 .project
 .settings
 salesforce.schema
+<<<<<<< HEAD
 Referenced Packages
+=======
+Referenced Packages
+>>>>>>> aade71cd91f90426508f0bd62de5be878fb268e2
