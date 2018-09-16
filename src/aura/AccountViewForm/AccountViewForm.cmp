@@ -1,10 +1,6 @@
 <aura:component implements="flexipage:availableForAllPageTypes,force:hasRecordId,force:appHostable" access="global">
     <lightning:recordViewForm recordId="{!v.recordId}" objectApiName="Account">
-<<<<<<< HEAD
         <lightning:layout class="slds-p-around_medium" multipleRows="true">
-=======
-        <lightning:layout multipleRows="true">
->>>>>>> aade71cd91f90426508f0bd62de5be878fb268e2
             <lightning:layoutItem size="6" class="slds-border_bottom">
                 <lightning:outputField fieldName="Name" />
             </lightning:layoutItem>

@@ -4,11 +4,7 @@
 
 <aura:component implements="flexipage:availableForAllPageTypes,force:hasRecordId,force:appHostable" access="global">
     <aura:attribute name="accountFields" type="String[]" default="['Name','Type','Rating','NumberOfEmployees']" />
-<<<<<<< HEAD
     <lightning:card class="slds-p-around_medium">
-=======
-    <lightning:card>
->>>>>>> aade71cd91f90426508f0bd62de5be878fb268e2
         <lightning:recordForm
                 recordId="{!v.recordId}"
                 objectApiName="Account"
