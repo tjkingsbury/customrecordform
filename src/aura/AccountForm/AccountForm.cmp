@@ -1,6 +1,4 @@
-<!--
- - Created by tkingsbury on 8/19/2018.
- -->
+
 
 <aura:component implements="flexipage:availableForAllPageTypes,force:hasRecordId,force:appHostable" access="global">
     <aura:attribute name="accountFields" type="String[]" default="['Name','Type','Rating','NumberOfEmployees']" />
